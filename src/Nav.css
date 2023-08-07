@@ -1,0 +1,26 @@
+/* Nav.css */
+.nav {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px; /* Adjust padding as needed */
+  background-color: #111;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.nav_logo {
+  object-fit: contain;
+  max-height: 30px; /* Adjust logo height as needed */
+  margin-left: 20px;
+  text-transform: uppercase;
+  color: red;
+}
+
+.nav_avatar {
+  object-fit: contain;
+  max-height: 30px; /* Adjust avatar height as needed */
+  margin-left: auto;
+  cursor: pointer;
+}
